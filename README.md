@@ -1,4 +1,4 @@
-# Toy DRL for Multi-Cell Interference Management
+# Demo DRL for Multi-Cell Interference Management
 
 **Author:** Muhammed Muminul Hoque  
 **Purpose:** Preliminary work for federated multi-agent reinforcement learning research with Prof. Mojtaba Vaezi (Villanova University)  
