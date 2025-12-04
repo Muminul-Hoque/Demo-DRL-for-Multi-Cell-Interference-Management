@@ -20,7 +20,7 @@ Develop federated multi-agent reinforcement learning (Fed-MARL) for privacy-pres
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 ```
 .
 ├── environment.py          # Multi-cell interference environment (Gym-compatible)
