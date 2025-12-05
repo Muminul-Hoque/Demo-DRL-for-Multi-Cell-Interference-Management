@@ -38,8 +38,8 @@ Develop federated multi-agent reinforcement learning (Fed-MARL) for privacy-pres
 ### Installation
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/demo-drl-interference.git
-cd demo-drl-interference
+git clone https://github.com/Muminul-Hoque/Demo-DRL-for-Multi-Cell-Interference-Management.git
+cd demo-drl-interference-management
 
 # Install dependencies
 pip install -r requirements.txt
@@ -107,14 +107,17 @@ This baseline demonstrates:
 
 1. **Multi-Agent DRL:**
    - All 3 BSs as independent learners
-   - Implement selective experience sharing (baseline from Vaezi's work)
+   - Implement selective experience sharing (baseline from Prof Vaezi's work)
 
 2. **Federated Learning:**
    - Replace experience sharing with federated model aggregation
    - Implement FedAvg/FedProx for non-IID scenarios
    - Compare communication overhead vs selective sharing
+3. **Adaptive Threshold Selection:**  
+   - Extend fixed threshold to adaptive mechanism based on FP/FN rates
+   - Test in heterogeneous traffic scenarios (urban/suburban)
 
-3. **Advanced Features:**
+4. **Advanced Features:**
    - mmWave channel models
    - Beamforming control (continuous actions)
    - Larger networks (5-10 BSs)
