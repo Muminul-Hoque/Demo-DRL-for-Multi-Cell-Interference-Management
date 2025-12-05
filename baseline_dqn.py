@@ -1,9 +1,8 @@
 """
-Simple DQN Agent for Multi-Cell Interference Management
-Baseline implementation to demonstrate DRL feasibility
+DQN Agent for Multi-Cell Interference Management
 
-Author: Muhammed Muminul Hoque
-Purpose: Preliminary work for federated MARL research with Prof. Vaezi
+Baseline implementation using Deep Q-Learning to optimize power control
+in a multi-cell wireless interference environment.
 """
 
 import numpy as np

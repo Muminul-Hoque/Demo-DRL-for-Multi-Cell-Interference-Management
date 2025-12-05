@@ -1,9 +1,8 @@
 """
-Simple Multi-Cell Interference Environment for DRL
-Simulates 3 base stations with interference management
+Multi-Cell Interference Environment for Deep Reinforcement Learning
 
-Author: Muhammed Muminul Hoque
-Purpose: Preliminary work for federated MARL research with Prof. Vaezi
+Implements a gymnasium-compatible environment simulating 3 base stations
+with power control and interference management capabilities.
 """
 
 import numpy as np
