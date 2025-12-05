@@ -16,7 +16,7 @@ Building on:
 - Dahal, Shin & Vaezi (2025), "Deep Reinforcement Learning Based Interference Mitigation in mmWave Multi-Cell Networks"
 
 **Proposed Extension:**  
-Develop federated multi-agent reinforcement learning (Fed-MARL) for privacy-preserving interference coordination across base stations/operators.
+Developing A Federated Multi-Agent Reinforcement Learning for Interference Mitigation in Multi-Operator Scenarios
 
 ---
 
@@ -113,11 +113,8 @@ This baseline demonstrates:
    - Replace experience sharing with federated model aggregation
    - Implement FedAvg/FedProx for non-IID scenarios
    - Compare communication overhead vs selective sharing
-3. **Adaptive Threshold Selection:**  
-   - Extend fixed threshold to adaptive mechanism based on FP/FN rates
-   - Test in heterogeneous traffic scenarios (urban/suburban)
 
-4. **Advanced Features:**
+3. **Advanced Features:**
    - mmWave channel models
    - Beamforming control (continuous actions)
    - Larger networks (5-10 BSs)
@@ -155,7 +152,7 @@ This work is preliminary research toward a proposal for Prof. Vaezi's NSF CAREER
 **Muhammed Muminul Hoque**  
 Email: muminul951@gmail.com  
 
-**Advisor (proposed):**  
+**Advisor :**  
 Prof. Mojtaba Vaezi  
 Villanova University  
 
