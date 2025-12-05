@@ -165,7 +165,7 @@ MIT License
 ---
 
 ##  Acknowledgments
-
+  Thanks TO
 - Prof. Mojtaba Vaezi for inspiring this research direction
 - Dahal et al. for foundational work on DRL-based interference management
 - OpenAI Gym for the environment framework
