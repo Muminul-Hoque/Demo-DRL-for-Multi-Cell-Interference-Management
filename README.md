@@ -1,19 +1,14 @@
 # Demo DRL for Multi-Cell Interference Management
 
 **Author:** Muhammed Muminul Hoque  
-**Purpose:** Preliminary work for federated multi-agent reinforcement learning research with Prof. Mojtaba Vaezi (Villanova University)  
-**Date:** December 2025
+**Purpose:** Preliminary work for federated multi-agent reinforcement learning research 
+
 
 ---
 
 ##  Project Overview
 
 This repository contains a simplified deep reinforcement learning (DRL) implementation for multi-cell interference management in wireless networks. This is preliminary work toward extending Prof. Vaezi's recent research on selective experience sharing in multi-agent DRL to a federated learning framework.
-
-**Research Context:**  
-Building on:
-- Dahal & Vaezi (2025), "Selective Experience Sharing in Reinforcement Learning Enhances Interference Management"
-- Dahal, Shin & Vaezi (2025), "Deep Reinforcement Learning Based Interference Mitigation in mmWave Multi-Cell Networks"
 
 **Proposed Extension:**  
 Developing A Federated Multi-Agent Reinforcement Learning for Interference Mitigation in Multi-Operator Scenarios
@@ -69,7 +64,7 @@ This will:
   - Simple interference model (real systems more complex)
   - Single-agent control (BS 0), others use heuristic
 
-**Note:** This is a toy environment to demonstrate DRL feasibility. Full replication of Prof. Vaezi's work would include:
+
 - mmWave channel models
 - Multi-agent coordination (all BSs as learners)
 - Beamforming control
@@ -152,9 +147,6 @@ This work is preliminary research toward a proposal for Prof. Vaezi's NSF CAREER
 **Muhammed Muminul Hoque**  
 Email: muminul951@gmail.com  
 
-**Advisor :**  
-Prof. Mojtaba Vaezi  
-Villanova University  
 
 ---
 
@@ -164,10 +156,5 @@ MIT License
 
 ---
 
-##  Acknowledgments
-  Thanks TO
-- Prof. Mojtaba Vaezi for inspiring this research direction
-- Dahal et al. for foundational work on DRL-based interference management
-- OpenAI Gym for the environment framework
 
 
